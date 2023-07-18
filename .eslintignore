@@ -1,0 +1,24 @@
+# ignore node_modules and built files
+node_modules/
+dist/
+build/
+out/
+
+# ignore test files
+*.test.*
+*.spec.*
+
+# ignore config files
+.eslintrc.*
+.prettier.*
+babel.config.js
+jest.config.js
+webpack.config.js
+
+# ignore generated code or assets
+src/generated/
+public/generated/
+
+# ignore package lock files
+yarn.lock
+package-lock.json
